@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">ITK_19</string>
+        <string name="branch_prompt">select a Branch</string>
+
+        <string-array name="branch_arrays">
+            <item>CSE</item>
+            <item>Mechanical</item>
+            <item>Electrical</item>
+            <item>Civil</item>
+        </string-array>
+</resources>

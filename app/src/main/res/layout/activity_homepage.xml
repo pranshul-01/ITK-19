@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFF8DC"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingHorizontal="23dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="#F0FFFF"
+        android:layout_marginTop="115dp"
+        android:hint="Enter your Name"/>
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_marginTop="35dp"
+        android:background="#F0FFFF"
+        android:paddingHorizontal="23dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:entries="@array/b_arrays"
+        android:prompt="@string/branch_prompt" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="#F0FFFF"
+        android:layout_marginTop="35dp"
+        android:paddingHorizontal="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:entries="@array/d_arrays"
+        android:prompt="@string/sem_prompt"
+       />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="45dp"
+        android:backgroundTint="@color/teal_700"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+</LinearLayout>

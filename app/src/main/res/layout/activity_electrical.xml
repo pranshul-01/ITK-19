@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#FED8B1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stud1"
+        android:text="🆂🆃🆄🅳🆈 🆂🅴🅲🆃🅸🅾🅽"
+        android:textSize="20dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/syl"
+        android:layout_below="@+id/stud1"
+        android:layout_marginTop="23dp"
+        android:text="Syllabus"
+        android:backgroundTint="#CCCCFF"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="200dp"
+        android:id="@+id/sy2"
+        android:layout_below="@+id/syl"
+        android:layout_marginTop="23dp"
+        android:text="Library Books"
+        android:backgroundTint="#CCCCFF"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sy2"
+        android:textSize="23dp"
+        android:text="Important Links for Your Semester:-"/>
+</RelativeLayout>
