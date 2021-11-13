@@ -1,6 +1,7 @@
 package com.famco.itk_19
 
 import android.content.Intent
+import android.graphics.Color.*
 import android.media.Image
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
@@ -9,6 +10,7 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.RelativeLayout
 import android.widget.Toast
 import com.denzcoskun.imageslider.ImageSlider
 import com.denzcoskun.imageslider.constants.ScaleTypes
@@ -25,7 +27,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var web1: ImageView
     private lateinit var web2: ImageView
     private lateinit var web3: ImageView
-    private lateinit var help: ImageView
+   private lateinit var help: ImageView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -36,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         web3 = findViewById(R.id.web3)
         help = findViewById(R.id.help)
 
-        /** Setting clicklisener and starting new activity**/
+        /** Setting clickListener and starting new activity**/
         web1.setOnClickListener(View.OnClickListener { view ->
             if (view == web1) {
                 val intent = Intent(Intent.ACTION_VIEW)
@@ -66,10 +68,6 @@ class MainActivity : AppCompatActivity() {
         })
         // Viewpager function
         viewPagerImages()
-
-        // Setting different viewImages
-
-
     }
 
     private fun viewPagerImages() {

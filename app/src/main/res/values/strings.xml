@@ -30,4 +30,5 @@
     <string name="student">Student</string>
     <string name="college_website">College Website</string>
     <string name="help">Help!</string>
+    <string name="email">Email</string>
 </resources>

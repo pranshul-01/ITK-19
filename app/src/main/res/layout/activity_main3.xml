@@ -20,25 +20,33 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
         android:layout_marginTop="20dp"
-        android:text="Full Name"/>
+        android:text="Full Name"
+        android:imeOptions="actionNext"
+        android:singleLine="true"/>
     <EditText
         android:id="@+id/txtName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:ems="10"/>
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:singleLine="true"/>
     <TextView
         android:id="@+id/secTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Email"
-        android:layout_marginLeft="100dp" />
+        android:layout_marginLeft="100dp"
+        android:imeOptions="actionNext"
+        android:singleLine="true" />
     <EditText
         android:id="@+id/txtEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="100dp"
-        android:ems="10" />
+        android:ems="10"
+        android:imeOptions="actionNext"
+        android:singleLine="true"/>
     <TextView
         android:id="@+id/Branch"
         android:layout_width="wrap_content"

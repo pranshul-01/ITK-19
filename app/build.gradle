@@ -56,6 +56,9 @@ dependencies {
     implementation  'com.google.firebase:firebase-bom:29.0.0'
 
     // For ImageSlider
-
     implementation "com.github.denzcoskun:ImageSlideshow:0.1.0"
+
+//   For recyclerView and cardView
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
 }
