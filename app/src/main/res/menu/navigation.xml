@@ -5,4 +5,10 @@
         android:title="@string/action_settings"
         android:orderInCategory="100"
         app:showAsAction="never" />
+    <item
+        android:title="Student"
+        android:id="@+id/menu_student"/>
+    <item
+        android:title="Event"
+        android:id="@+id/menu_event"/>
 </menu>
